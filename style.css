@@ -1,0 +1,31 @@
+#navbar {
+  position: fixed;
+  background: orange;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#welcome-section {
+  background-color: pink;
+  height: 100vh;
+  /*padding-top: 50px;*/
+}
+
+#projects {
+  background-color: yellow;
+  height: 600px;
+}
+
+#contact_me {
+  background-color: green;
+  height: 500px;
+}
