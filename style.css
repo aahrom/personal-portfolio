@@ -1,9 +1,11 @@
-#navbar {
-  position: fixed;
-  background: orange;
-  width: 100%;
-  top: 0;
-  left: 0;
+
+
+.nav-link {
+  float: right; 
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 2.4rem;
 }
 
 @media (max-width: 600px) {
@@ -14,18 +16,56 @@
   }
 }
 
+/* Welcome section */
+.welcome-text {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 #welcome-section {
   background-color: pink;
   height: 100vh;
-  /*padding-top: 50px;*/
+  padding-top: 20px;
 }
 
+/* Projects section */
 #projects {
-  background-color: yellow;
-  height: 600px;
+  height: 100vh;
 }
 
-#contact_me {
-  background-color: green;
-  height: 500px;
+
+/*Contact Me section*/
+#contact {
+  background-color: pink;
+  height: 100vh;
 }
+
+.contact-me-text {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+/*Bootstrap cards*/
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
