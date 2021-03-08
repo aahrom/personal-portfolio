@@ -1,0 +1,71 @@
+
+
+.nav-link {
+  float: right; 
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 2.4rem;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* Welcome section */
+.welcome-text {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#welcome-section {
+  background-color: pink;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+/* Projects section */
+#projects {
+  height: 100vh;
+}
+
+
+/*Contact Me section*/
+#contact {
+  background-color: pink;
+  height: 100vh;
+}
+
+.contact-me-text {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+/*Bootstrap cards*/
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
